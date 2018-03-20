@@ -87,4 +87,5 @@ padding: 5px;
 }
 #paper-info {
   visibility: hidden;
+  text-align: center;
 }
