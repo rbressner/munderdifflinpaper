@@ -42,7 +42,8 @@ body {
   font-size: 200%;
   width: 40%;
   margin-top:167px;
-  margin-left: 250px;
+  margin-left: 230px;
+
 }
 .buy-paper:hover {
   background-color: #8fe3d9;
@@ -88,4 +89,10 @@ padding: 5px;
 #paper-info {
   visibility: hidden;
   text-align: center;
+}
+.section-1 {
+  height: 600px;
+}
+.symbol-plus {
+  float: right;
 }
