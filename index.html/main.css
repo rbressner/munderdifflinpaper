@@ -34,7 +34,13 @@ body {
   cursor: pointer;
   padding: 20px;
   font-family: 'Quicksand', sans-serif;
-  border-color: #8fe3d9;
+  /* border-color: #8fe3d9; */
   background-color: transparent;
   text-align: center;
+  padding: 16px 32px;
+  border: 2px solid #8fe3d9;
+}
+.buy-paper:hover {
+  background-color: #8fe3d9;
+  color: black;
 }
