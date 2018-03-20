@@ -6,12 +6,3 @@ function paperInfoButton() {
     paper.style.visibility = "visible"
   }
 }
-
-function paperInfoDropDown() {
-  let paperItems = document.getElementById("plus-sign")
-  if (paperItems.style.visibility === "visible") {
-    paperItems.style.visibility = "hidden"
-  } else {
-    paperItems.style.visibility = "visible"
-  }
-}
