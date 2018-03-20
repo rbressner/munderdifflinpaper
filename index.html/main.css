@@ -48,3 +48,7 @@ body {
   background-color: #8fe3d9;
   color: black;
 }
+footer {
+  background: rgba(143,227,217, 0.3);
+  padding: 30px;
+}
