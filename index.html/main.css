@@ -85,6 +85,6 @@ footer {
 display: inline-block;
 padding: 5px;
 }
-.paper-info {
+#paper-info {
   visibility: hidden;
 }
