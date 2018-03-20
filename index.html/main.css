@@ -166,3 +166,6 @@ h1 {
   display: block;
   padding: 15px;
 }
+p {
+  text-align: center;
+}
