@@ -25,18 +25,18 @@ body {
   font-family: 'Quicksand', sans-serif;
   background-image: url("paper.jpg")
 }
-.nav-items:hover {
-    color: #8fe3d9;
-  background-color: black;
-  cursor: pointer;
-}
-
 .nav-items .anchor-nav:hover {
   background-color: black;
   color: #8fe3d9;
   cursor: pointer;
   text-decoration: none;
 }
+.nav-items:hover {
+  color: #8fe3d9;
+  background-color: black;
+  cursor: pointer;
+}
+
 .nav-items a:active {
     color: black;
     background-color: none;
@@ -126,4 +126,41 @@ padding: 5px;
 }
 h1 {
   text-align: center;
+}
+.first-half {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.second-half {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.pic-one {
+  text-align: center;
+  display: block;
+  padding: 15px;
+}
+.pic-two {
+  text-align: center;
+  display: block;
+  padding: 15px;
+}
+.pic-three {
+  text-align: center;
+  display: block;
+  padding: 15px;
+}
+.pic-four {
+  text-align: center;
+  display: block;
+  padding: 15px;
+}
+.pic-five {
+  text-align: center;
+  display: block;
+  padding: 15px;
 }
