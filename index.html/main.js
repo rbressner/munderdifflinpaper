@@ -8,10 +8,10 @@ function paperInfoButton() {
 }
 
 function paperInfoDropDown() {
-  let paper = document.getElementById("plus-sign")
-  if (paper.style.visibility === "visible") {
-    paper.style.visibility = "hidden"
+  let paperItems = document.getElementById("plus-sign")
+  if (paperItems.style.visibility === "visible") {
+    paperItems.style.visibility = "hidden"
   } else {
-    paper.style.visibility = "visible"
+    paperItems.style.visibility = "visible"
   }
 }

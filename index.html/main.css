@@ -101,3 +101,14 @@ padding: 5px;
 .paper-types {
   list-style-type: none;
 }
+#plus-sign {
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px;
+  font-family: 'Quicksand', sans-serif;
+  border: none;\
+  font-size: 140%;
+}
+.paper-type-items {
+    font-size: 140%;
+}
