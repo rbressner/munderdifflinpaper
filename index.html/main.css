@@ -62,8 +62,10 @@ body {
   font-size: 200%;
   width: 45%;
   margin-top:167px;
-  margin-left: 210px;
+  margin-left: 200px;
   outline: none;
+  align-items: center;
+  justify-content: center;
 }
 .buy-paper:hover {
   background-color: #8fe3d9;
