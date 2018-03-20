@@ -169,3 +169,14 @@ h1 {
 p {
   text-align: center;
 }
+/* .team {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+} */
+.team-pics {
+  border-radius: 50%;
+  height: 300px;
+  width: 250px;
+}
