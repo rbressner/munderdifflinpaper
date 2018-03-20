@@ -4,12 +4,12 @@
   list-style-type: none;
   position: fixed;
   top: 30%;
-  width: 10%;
+  width: 12%;
   position: fixed;
   /* background-color: #868C8C; */
   color: black;
   padding: 20px;
-  left: 1.5%;
+  left: 0.5%;
   font-size: 130%;
 }
 .logo {
