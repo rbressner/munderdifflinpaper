@@ -3,20 +3,27 @@
   text-align: center;
   list-style-type: none;
   position: fixed;
-  top: 5;
-  width: 80%;
+  top: 30%;
+  width: 10%;
   position: fixed;
-  background-color: black;
-  color: white;
+  background-color: #868C8C;
+  color: black;
   padding: 20px;
-  margin-left: 150px;
+  left: 1.5%;
 }
 .logo {
   float: left;
-  width: 8%;
+  width: 15%;
   margin-top: 0;
 }
 .nav-items {
-  display: inline;
+  /* display: inline; */
   padding: 5px;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+.nav-items:hover {
+  background-color: black;
+  color: #8fe3d9;
 }
