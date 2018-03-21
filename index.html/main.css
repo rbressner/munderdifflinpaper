@@ -201,6 +201,10 @@ h3 {
   font-size: 130%;
   /* width: 10%; */
   /* margin-top:167px; */
-  margin-left: 700px;
+  margin-left: 685px;
   outline: none;
+}
+.inquire:hover {
+  background-color: #8fe3d9;
+  color: black;
 }
