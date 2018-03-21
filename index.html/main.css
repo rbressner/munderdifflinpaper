@@ -206,11 +206,10 @@ h2 {
   font-size: 120%;
 }
 .add-to-cart {
-  background-color: #8fe3d9;
+  background: rgba(143,227,217, 0.3);
   border: 1px solid black;
   cursor: pointer;
-  opacity: 0.8;
 }
 .add-to-cart:hover {
-  opacity: 1;
+  background: rgba(143,227,217, 1);
 }
