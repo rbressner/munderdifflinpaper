@@ -139,11 +139,7 @@ padding: 5px;
   width: 200px;
 }
 .paper-pic:hover {
-  animation: pichover 1s;
-}
-@keyframes pichover {
-  0% {opacity: 1;}
-  100% {opacity: 0.7;}
+  opacity: 0.6;
 }
 h1 {
   text-align: center;
