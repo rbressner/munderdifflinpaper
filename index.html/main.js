@@ -1,5 +1,8 @@
+let paper = document.getElementById("paper-info")
 function paperInfoButton() {
-  let paper = document.getElementById("paper-info")
+  window.addEventListener('click', (clickEvent) => {
+    paper.classList.add("show")
+  })
   if (paper.style.visibility === "visible") {
     paper.style.visibility = "hidden"
   } else {
