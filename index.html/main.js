@@ -1,5 +1,4 @@
 let paper = document.getElementById("paper-info")
-
 function clickPaper() {
   if (paper.style.visibility === "visible") {
     paper.style.visibility = "hidden"

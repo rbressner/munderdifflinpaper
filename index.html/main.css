@@ -59,7 +59,8 @@ body {
   padding: 20px;
   font-family: 'Quicksand', sans-serif;
   /* border-color: #8fe3d9; */
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-color: #8fe3d9;
   text-align: center;
   padding: 16px 32px;
   border: 2px solid #8fe3d9;
