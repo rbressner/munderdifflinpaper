@@ -78,12 +78,6 @@ body {
 .buy-paper:after {
   border: 2px solid #8fe3d9;
 }
-.paper-pic {
-  cursor: pointer;
-  background-color: transparent;
-  outline: none;
-  border: none;
-}
 footer {
   background: rgba(143,227,217, 0.3);
   text-align: center;
@@ -198,14 +192,24 @@ h3 {
 h2 {
   text-align: center;
 }
-.fa-shopping-cart {
+.top-shopping-cart {
   /* display: flex; */
   float: right;
   margin-right: 50px;
+  font-size: 40px;
 }
 .shopping-cart {
   border: none;
   background-color: transparent;
   padding: 5px;
   font-size: 120%;
+}
+.add-to-cart {
+  background-color: #8fe3d9;
+  border: 1px solid black;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.add-to-cart:hover {
+  opacity: 1;
 }
