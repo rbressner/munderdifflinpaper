@@ -37,10 +37,10 @@ window.addEventListener('scroll', (event) => {
 if (window.scrollY > 200) {
   placement1.classList.remove("menu")
 }
-if (window.scrollY > 650 || window.scrollY < 200) {
+if (window.scrollY > 800 || window.scrollY < 200) {
   placement2.classList.remove("menu")
 }
-if (window.scrollY < 650 || window.scrollY > 1150) {
+if (window.scrollY < 800 || window.scrollY > 1150) {
   placement3.classList.remove("menu")
 }
 if (window.scrollY < 1150 || window.scrollY > 2300) {
