@@ -74,6 +74,12 @@ body {
 .buy-paper:hover {
   background-color: #8fe3d9;
   color: black;
+  animation: explorepaper 1s;
+}
+@keyframes explorepaper {
+  0% {background: rgba(143,227,217, 0);}
+  50% {background: rgba(143,227,217, 0.5);}
+  100% {background: rgba(143,227,217, 1);}
 }
 .buy-paper:after {
   border: 2px solid #8fe3d9;
@@ -131,6 +137,13 @@ padding: 5px;
   border-radius: 50%;
   height: 200px;
   width: 200px;
+}
+.paper-pic:hover {
+  animation: pichover 1s;
+}
+@keyframes pichover {
+  0% {opacity: 1;}
+  100% {opacity: 0.7;}
 }
 h1 {
   text-align: center;
