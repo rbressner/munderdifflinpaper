@@ -1,7 +1,5 @@
 let paper = document.getElementById("paper-info")
-window.addEventListener('click', (clickEvent) => {
-  paper.classList.add("show")
-})
+
 function clickPaper() {
   if (paper.style.visibility === "visible") {
     paper.style.visibility = "hidden"
@@ -9,3 +7,6 @@ function clickPaper() {
     paper.style.visibility = "visible"
   }
 }
+window.addEventListener('click', (clickEvent) => {
+  paper.classList.add("show")
+})
