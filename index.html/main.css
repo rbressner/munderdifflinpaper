@@ -203,3 +203,9 @@ h2 {
   float: right;
   margin-right: 50px;
 }
+.shopping-cart {
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+  font-size: 120%;
+}
