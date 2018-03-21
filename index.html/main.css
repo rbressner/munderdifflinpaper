@@ -20,33 +20,37 @@
 .nav-items {
   color: black;
   padding: 5px;
+  text-decoration: none;
 }
 body {
   font-family: 'Quicksand', sans-serif;
-  background-image: url("paper.jpg")
+  background-image: url("paper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-.nav-items .anchor-nav:hover {
+.anchor-nav .nav-items:hover {
   background-color: black;
   color: #8fe3d9;
   cursor: pointer;
   text-decoration: none;
 }
-.nav-items:hover {
+.anchor-nav:hover {
   color: #8fe3d9;
   background-color: black;
   cursor: pointer;
+  text-decoration: none;
 }
 
-.nav-items a:active {
+.anchor-nav:active {
     color: black;
-    background-color: none;
+
     text-decoration: none;
 }
-.nav-items a:visited {
+.anchor-nav:visited {
     color: black;
     text-decoration: none;
 }
-.nav-items a:link {
+.anchor-nav:link {
     color: black;
     text-decoration: none;
 }
