@@ -198,3 +198,8 @@ h3 {
 h2 {
   text-align: center;
 }
+.fa-shopping-cart {
+  /* display: flex; */
+  float: right;
+  margin-right: 50px;
+}
