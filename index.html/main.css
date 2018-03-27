@@ -1,0 +1,266 @@
+@media (min-width: 275px) and (max-width:2000px) {
+  nav {
+      position: relative;
+      z-index: 100000;
+  }
+.navbar {
+  display: block;
+  text-align: center;
+  list-style-type: none;
+  position: fixed;
+  top: 30%;
+  width: 12%;
+  position: fixed;
+  /* background-color: #868C8C; */
+  color: black;
+  padding: 20px;
+  left: 0.5%;
+  font-size: 130%;
+}
+.logo {
+  float: left;
+  width: 15%;
+  margin-top: 0;
+}
+.nav-items {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-image: url("paper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.anchor-nav .nav-items:hover {
+  background-color: black;
+  color: #8fe3d9;
+  cursor: pointer;
+  text-decoration: none;
+}
+.anchor-nav:hover {
+  color: #8fe3d9;
+  background-color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.anchor-nav:active {
+    color: black;
+
+    text-decoration: none;
+}
+.anchor-nav:visited {
+    color: black;
+    text-decoration: none;
+}
+.anchor-nav:link {
+    color: black;
+    text-decoration: none;
+}
+.buy-paper {
+  cursor: pointer;
+  padding: 20px;
+  font-family: 'Quicksand', sans-serif;
+  /* border-color: #8fe3d9; */
+  /* background-color: transparent; */
+  background-color: #8fe3d9;
+  text-align: center;
+  padding: 16px 32px;
+  border: 2px solid #8fe3d9;
+  font-size: 200%;
+  width: 45%;
+  margin-top:167px;
+  margin-left: 200px;
+  outline: none;
+  align-items: center;
+  justify-content: center;
+}
+.buy-paper:hover {
+  background-color: #8fe3d9;
+  color: black;
+  animation: explorepaper 1s;
+}
+@keyframes explorepaper {
+  0% {background: rgba(143,227,217, 0);}
+  50% {background: rgba(143,227,217, 0.5);}
+  100% {background: rgba(143,227,217, 1);}
+}
+.buy-paper:after {
+  border: 2px solid #8fe3d9;
+}
+footer {
+  background: rgba(143,227,217, 0.3);
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  right: 0;
+  left: 0;
+   bottom: 0;
+}
+.footer-list {
+  list-style-type: none;
+}
+.fa {
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa-facebook {
+  background: transparent;
+  color: black;
+}
+.fa-twitter {
+  background: transparent;
+  color: black;
+}
+.fa-instagram {
+  background: transparent;
+  color: black;
+}
+.footer-items {
+display: inline-block;
+padding: 5px;
+}
+#paper-info {
+  visibility: hidden;
+  text-align: center;
+  /* opacity: 0; */
+}
+.show {
+animation: fadeIn;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+animation-iteration-count: 1;
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  50% {opacity: 0.5;}
+  100% {opacity: 1;}
+}
+.symbol-plus {
+  float: right;
+  border-left: 2px solid black;
+  width: 15%;
+}
+.paper-types {
+  list-style-type: none;
+}
+.paper-pic {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.paper-pic:hover {
+  opacity: 0.6;
+}
+h1 {
+  text-align: center;
+}
+.first-half {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.second-half {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.pic-one {
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+.pic-two {
+  text-align: center;
+  display: block;
+  padding: 15px;
+}
+.pic-three {
+  text-align: center;
+  display: block;
+  padding: 15px;
+}
+.pic-four {
+  text-align: center;
+  display: block;
+  padding: 15px;
+}
+.pic-five {
+  text-align: center;
+  display: block;
+  padding: 15px;
+}
+p {
+  text-align: center;
+}
+/* .team {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+} */
+.team-pics {
+  border-radius: 50%;
+  height: 300px;
+  width: 250px;
+}
+h3 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.fa-shopping-cart {
+  /* display: flex; */
+  float: right;
+  margin-right: 40px;
+  font-size: 40px;
+  transform: scale(-1, 1);
+}
+.fa-shopping-cart:hover {
+  cursor: pointer;
+}
+.shopping-cart {
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+  font-size: 120%;
+}
+.add-to-cart {
+  background: rgba(143,227,217, 0.3);
+  border: 1px solid black;
+  cursor: pointer;
+}
+.add-to-cart:hover {
+  background: rgba(143,227,217, 1);
+}
+.about-section {
+  width: 40%;
+  text-align: center;
+  margin-left: 460px;
+}
+.menu {
+  background-color: black;
+  color: #8fe3d9;
+  cursor: pointer;
+  text-decoration: none;
+}
+body::-webkit-scrollbar {
+    width: 15px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #8fe3d9;
+}
+body::-webkit-scrollbar-track {
+    background-color: #f6f6f6;
+}
+
+}
